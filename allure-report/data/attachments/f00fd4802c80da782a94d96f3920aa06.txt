@@ -1,0 +1,9 @@
+[
+  'admin_user',
+  'owner_ravi',
+  'lead_priya',
+  'qa_arjun',
+  'qa_sneha',
+  'dev_kiran',
+  'sys_bot'
+]

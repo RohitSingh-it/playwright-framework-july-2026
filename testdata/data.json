@@ -1,0 +1,43 @@
+	{
+  "username": "admin_user",
+  "company": {
+    "name": "Acme Corp",
+    "owner": {
+      "username": "owner_ravi"
+    },
+    "departments": [
+      {
+        "name": "QA",
+        "lead": {
+          "username": "lead_priya"
+        },
+        "members": [
+          {
+            "username": "qa_arjun",
+            "role": "SDET"
+          },
+          {
+            "username": "qa_sneha",
+            "role": "SDET-II"
+          }
+        ]
+      },
+      {
+        "name": "Dev",
+        "members": [
+          {
+            "username": "dev_kiran"
+          }
+        ]
+      }
+    ]
+  },
+  "audit": {
+    "lastModifiedBy": {
+      "username": "sys_bot"
+    },
+    "usernames": [
+      "should_not_match"
+    ]
+  }
+}
